@@ -1,0 +1,21 @@
+.image {
+  height: 500px;
+  width: 100vw;
+}
+.mainImageGallery {
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+
+.mianDivIG {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.carouselText {
+  background-color: #690001;
+  width: max-content;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+

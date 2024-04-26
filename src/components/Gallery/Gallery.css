@@ -1,0 +1,42 @@
+
+.gallery-container {
+  text-align: center;
+  background-color: navy;
+  color: white;
+ padding: 20px;
+}
+
+.image-scroll {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scrollAnimation 15s linear infinite; /* Adjust the animation duration as needed */
+}
+
+.show-all {
+  animation: none; /* Disable the scrolling animation when showing all images */
+}
+
+.image-scroll img {
+  display: inline-block;
+  margin-right: 20px;
+  width: 500px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  cursor: pointer;
+}
+
+.show-all-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@keyframes scrollAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

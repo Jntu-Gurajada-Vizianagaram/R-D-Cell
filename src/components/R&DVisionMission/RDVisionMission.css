@@ -1,0 +1,36 @@
+.RD-main {
+    padding-left: 5%;
+    padding-right: 5%; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.RD-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    font-size: medium;
+}
+
+.RD-vision, .RD-mission {
+    width: 40%; 
+    padding: 5px;
+    margin: 5px;
+    height: 10%;
+    background-color: white;
+    color: darkblue;
+    font-size: medium;
+}
+
+.RD-vision:hover {
+    background-color:rgb(179 106, 247);
+    color: white;
+}
+
+.RD-mission:hover {
+    background-color:rgb(179, 106, 247);
+    color: white;
+}
+
+

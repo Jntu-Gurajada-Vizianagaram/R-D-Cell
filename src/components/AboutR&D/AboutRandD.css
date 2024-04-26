@@ -1,0 +1,43 @@
+.About-rnd {
+    text-align: center;
+    margin-top: 5Px;
+}
+
+.RDimage-Left {
+    float: right; 
+    max-width: 360px;
+    height: 270px; 
+}
+
+.RDtext-Container {
+    text-align: left;
+    font-size: medium;
+}
+
+.RD-Content {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+
+.RD-heading {
+    text-align: left;
+    font-size: x-large;
+}
+
+.RD-button {
+    font-size: medium;
+    text-decoration: none;
+}
+
+.RD-button1 {
+    background-color: rgb(246, 246, 38);
+    width: 170px;
+  height: 40px;
+  border-radius: 20px; 
+  border: none;
+}
+
+.RD-button1:hover {
+    background-color:rgb(179, 106, 247);
+
+}

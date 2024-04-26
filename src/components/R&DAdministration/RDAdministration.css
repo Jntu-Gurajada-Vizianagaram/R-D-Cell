@@ -1,0 +1,64 @@
+.RD-Admin {
+    background-color: rgb(43, 43, 159);
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.RD-text {
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.RD-row {
+    display: flex;
+}
+
+.RD-row1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.RD-data {
+    height: 80%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.RD-img {
+    height: 80%;
+    width: 100%;
+}
+
+.RD-name {
+    color: rgb(35, 145, 241);
+    text-align: center;
+    font-size: medium;
+}
+
+.RD-designation {
+    color: black;
+    text-align: center;
+    font-size: small;
+}
+
+.RD-Chancellor, .RD-ViceChancellor, .RD-Registrar, .RD-Director, .RD-coordinator {
+    background-color: aliceblue;
+    width: 20%;
+    height: 50%;
+    margin-left: 10%;
+    
+}
+
+.more-info {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color: navy;
+}
+
+.RDbutton {
+    color: white;
+    text-decoration: none;
+}

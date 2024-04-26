@@ -1,0 +1,135 @@
+.top-nav a {
+    display: block;
+    color:  rgb(6, 14, 85);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+
+  button {
+    border-style: none;
+   
+  }
+
+  .nav-bar {
+    padding-bottom: 10px;
+  }
+
+  .a:hover {
+    color:  rgb(6, 14, 85);
+  }
+  
+  .active {
+    
+    color: rgb(6, 14, 85);
+  }
+  
+  .result-icon {
+    height: 30px;
+  }
+
+  .dropbtn {
+    
+    color: rgb(6, 14, 85);
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    padding-top: 20%;
+  }
+  
+  .dropbtn:hover {
+ 
+    color: rgb(6, 14, 85);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+ 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    height: 20px;
+    width: 500px;
+  }
+  
+  .dropdown-content button {
+    color: rgb(165, 221, 141);
+    text-decoration: none;
+    display: block;
+    height: auto;
+  }
+  
+  .dropdown-content button {
+    
+    width: 100%;
+  }
+  
+  .dropdown-content:hover button:hover {
+   
+    color: rgb(6, 14, 85);
+  }
+  
+  .link-btn {
+    text-align: left;
+    color:  rgb(6, 14, 85);
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  .link-btn:hover {
+    color: rgb(6, 14, 85);
+  }
+  
+  button:hover {
+    color: rgb(6, 14, 85);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 200px;
+  }
+  
+  .drop-icon {
+    height: 30px;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .menu-icon {
+      display: flex;
+      color:  rgb(6, 14, 85);
+      justify-content: flex-start;
+    }
+  
+    .menu-off-options {
+      display: none;
+    }
+  
+    .menu-on-options {
+      display: flex;
+      flex-direction: column;
+    }
+    .top-nav {
+      height: auto;
+      font-size: 13px;
+    }
+  }
+  
+ .container1 {
+    display:flex;
+ }
+ 

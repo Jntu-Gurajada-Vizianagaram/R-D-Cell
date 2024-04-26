@@ -1,0 +1,114 @@
+
+
+.AD-Main {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+  
+  .ADallLeftMenu {
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+  
+  .ADallLeftMenu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .ADallLeftMenu a.active {
+    color: white; /* Change the active link color as desired */
+  }
+  
+  .allRightContentHeading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #2e0669;
+  }
+  
+  .ADimg img {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .ADh3 {
+    margin: 0;
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(20, 6, 63);
+    font-weight: bold;
+  }
+  
+  .ADh4 {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .ADp {
+    font-size: 17px;
+  }
+  
+  .ADsub {
+    text-decoration: underline;
+    color: #2e0669;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .ADhr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  /* Button structure */
+  .ADallLeftMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Default button style */
+  .ADallLeftMenu .menuButton {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 300px; /* Set a fixed width for your buttons */
+    height: 60px; /* Set a fixed height for your buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hover state */
+  .ADallLeftMenu .menuButton:hover {
+    background-color: #2e0669;
+  }
+  
+  /* Selected state */
+  .ADallLeftMenu .menuButton.active {
+    background-color: #2e0669;
+  }
+  
+  .a {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(20, 6, 63);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .AD-Main {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  }
+  
